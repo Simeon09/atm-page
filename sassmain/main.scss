@@ -1,0 +1,36 @@
+
+*{
+margin: 0px;
+box-sizing: border-box;
+
+}
+@import "color";
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+    div{
+        background-color: $background-color-box;
+        width: 30%;
+        height: 300px;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        text-align: center;
+        
+          h4{
+              
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              font-size: 20px;
+          }
+        
+        button{
+            background-color: $background-color-btn;
+            width: 40%;
+            height: 40px;
+        }
+        
+    }
+}
+.btn {
+    text-align: center;
+}
